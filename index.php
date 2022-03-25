@@ -20,8 +20,8 @@ $gameHtml = \GabrielApp\Classes\ViewHelpers\GameViewHelper::displayManyGames($ga
 </head>
 <body>
 
-
-<button type="submit"><a href="ViewFavourites.php">View All Favourites</a></button>
+<h1>GamesHub</h1>
+<button class='btn btn-outline-success btn-lg' type='submit'><a href='ViewFavourites.php'>View All Favourites</a></button>
 <?= $gameHtml?>
 
 </body>
