@@ -5,7 +5,7 @@ namespace GabrielApp\Classes\Utilities;
 class StringFormatter {
     public static function formatIdsForSql(array $ids) {
     if(!count($ids)) {
-    throw new \Exception("No ids provided");
+        header('Location: index.php');
     }
 
     $result = '';
