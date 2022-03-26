@@ -29,7 +29,7 @@ $favouriteGamesHtml = \GabrielApp\Classes\ViewHelpers\GameViewHelper::displayFav
             <span><button class='btn btn-primary' type='submit'><a class='text-decoration-none link-light' href='index.php'>Back to Homepage</a></button></span>
     </div>
 </nav>
-<div class='jumbotron bg-info border-bottom border-secondary'>
+<div class='jumbotron bg-info border-bottom border-secondary mb-2'>
     <div class='container d-flex justify-content-center'>
         <h2 class='my-3'>Your Favourite Games</h2>
     </div>
