@@ -7,4 +7,4 @@ $_SESSION['favourites'][] = $_POST['id'];
 
 
 
-header('Location: index.php');
+header('Location: index.php: void(0)');

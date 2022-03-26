@@ -21,7 +21,10 @@ $gameHtml = \GabrielApp\Classes\ViewHelpers\GameViewHelper::displayManyGames($ga
 <body class="bg-secondary">
 <nav class="navbar navbar-light bg-light mb-2 border-bottom border-secondary">
     <div class="container d-flex justify-content-between">
-            <h1 class=>GamesHub</h1>
+        <div>
+            <h1>GamesHub</h1>
+            <p><em>Click on your favourite games!</em></p>
+        </div>
             <span><button class='btn btn-primary' type='submit'><a class='text-decoration-none link-light' href='ViewFavourites.php'>View All Favourites</a></button></span>
     </div>
 </nav>
