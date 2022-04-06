@@ -1,6 +1,10 @@
 <?php
 
 require_once 'vendor/autoload.php';
+session_start();
+if (!isset($_SESSION['favourites'])) {
+    $_SESSION['favourites'] = [];
+}
 
 
 $db = new \PDO('mysql:host=db; dbname=games', 'root', 'password');
